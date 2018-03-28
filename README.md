@@ -1,7 +1,7 @@
 # Varnish Docker container
 
-> Centos 7  
-> Varnish 4.x
+> Alpine
+> Varnish 5.x
 
 ## Usage
 
@@ -42,5 +42,3 @@ You can configure Varnish daemon by following env variables:
 * Przemyslaw Ozgo (<linux@ozgo.info>)
 
 ---
-
-**Sponsored by** [Typostrap.io - the new prototyping tool](http://typostrap.io/) for building highly-interactive prototypes of your website or web app. Built on top of TYPO3 Neos CMS and Zurb Foundation framework.
