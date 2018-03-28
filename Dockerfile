@@ -2,8 +2,8 @@ FROM alpine
 MAINTAINER Przemyslaw Ozgo linux@ozgo.info, Marcin Ryzycki marcin@m12.io, Igor Masen igor.masen@gmail.com
 
 RUN apk update && \
-  apk install --no-cache bash && \
-  apk install --no-cache varnish
+  apk add --no-cache bash && \
+  apk add --no-cache varnish
 
 ADD start.sh /start.sh
 
