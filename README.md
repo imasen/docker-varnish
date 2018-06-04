@@ -40,5 +40,6 @@ You can configure Varnish daemon by following env variables:
 
 * Marcin Ryzycki (<marcin@m12.io>)  
 * Przemyslaw Ozgo (<linux@ozgo.info>)
+* Igor Masen
 
 ---
