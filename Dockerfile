@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Przemyslaw Ozgo linux@ozgo.info, Marcin Ryzycki marcin@m12.io, Igor Masen igor.masen@gmail.com
+LABEL maintainer="Przemyslaw Ozgo linux@ozgo.info, Marcin Ryzycki marcin@m12.io, Igor Masen igor.masen@gmail.com"
 
 RUN apk update && \
   apk add --no-cache bash && \
